@@ -1,0 +1,168 @@
+body{ margin: 45px;   padding: 30px;}   
+
+
+header h1{color: #8CC0DE;
+    justify-content: center;
+    display: flex;
+    font-size: 80px;}
+
+.finicio{  max-width: 550px; 
+    max-height: 500px; }
+
+.txt1{ font-size: 17px;}
+.prip{ display: grid;
+   grid-template-columns: 450px  450px  ;
+   grid-template-rows: 346px 346px ; 
+   grid-template-areas: 
+   " finicio txt1 "
+    "  txt1 " ;} 
+
+.segunda img{ max-width: 200px; max-height: 300px ;   }
+.segunda .iga { display: grid;
+    grid-template-columns: 350px  ;
+    grid-template-rows: 200px   ; 
+    grid-template-areas: 
+" img   ul "  ;
+ }  
+
+ .segunda .eag { display: grid;
+    grid-template-columns: 350px  ;
+    grid-template-rows: 200px   ; 
+    grid-template-areas: 
+" img   ul "  ; }  
+
+.segunda .isehg{ display: grid;
+    grid-template-columns: 350px  ;
+    grid-template-rows: 200px   ; 
+    grid-template-areas: 
+" img ul "  ; }  
+
+
+
+    /* Cocineros*/
+    .ccrs{max-width: 550px; 
+        max-height: 400px;   }
+   
+        .Betular p { font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+        .Choli p{ font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+            .Isabel{ font-size: 18px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+                .Pamela{ font-size: 18px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+                    .Mauricio{ font-size: 18px;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;}
+
+     .Betular{ display: grid;
+        grid-template-columns: 550px  ;
+        grid-template-rows: 200px   ; 
+        grid-template-areas: 
+        " img p " }  
+
+        .Choli{
+            display: grid;
+            grid-template-columns: 550px ;
+            grid-template-rows: 200px;
+            grid-template-areas: " img p ";
+        }
+ 
+        .Isabel{ display: grid;
+        grid-template-columns: 550px;
+    grid-template-rows: 200px;
+grid-template-areas: " img p ";}
+
+.Pamela{ display: flex;
+grid-template-columns: 700px;
+grid-template-rows: 200px;
+grid-template-areas: "img p";}
+
+.Mauricio{ 
+    display: grid;
+    grid-template-columns: 550px;
+    grid-template-rows: 200px;
+    grid-template-areas: "img p ";
+}
+
+ /* Recetas*/
+
+.tortaimg{ max-width: 500px;
+max-height: 400px;}
+
+details summary{ color: #BF8B85; font-size: 26px;}
+
+.recetat h2{ color:  #BF8B85} 
+
+.trms{ display: grid;
+grid-template-columns: 550px;
+grid-template-rows: 200px;
+grid-template-areas: "img dtls dtls" ;}
+
+.islaf{display: grid;
+    grid-template-columns: 550px;
+    grid-template-rows: 200px;
+    grid-template-areas: "img dtls dtls" }
+
+    .page-item{ font-size: 35px;     justify-content: center;
+    display: flex;}
+
+    .cheese{ display: grid;
+        grid-template-columns: 550px;
+        grid-template-rows: 200px;
+        grid-template-areas: "img dtls dtls" }
+        .manzana{display: grid;
+            grid-template-columns: 550px;
+            grid-template-rows: 200px;
+            grid-template-areas: "img dtls dtls"}
+            .pera{display: grid;
+                grid-template-columns: 550px;
+                grid-template-rows: 200px;
+                grid-template-areas: "img dtls dtls"}
+
+
+   /* Recomendaciones*/   
+.prosaimg{max-width: 550px;
+    max-height: 450px; }    
+   
+    .betupt{ font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    
+     .reco1{ display: flex;
+        grid-template-columns: 550px ;
+    grid-template-rows: 200px ;
+    grid-template-areas: 
+    "bruimg betupt ";}  
+    
+    .reco11{  display: flex;
+        grid-template-columns: 550px ;
+    grid-template-rows: 200px ;
+    grid-template-areas: 
+    "card ubi ";}
+    .reco11{justify-content: flex-start}
+
+
+    .prosap{font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    
+    
+        .reco2{ display: flex;
+        grid-template-columns: 550px ;
+    grid-template-rows: 200px ;
+    
+    grid-template-areas: 
+    "prosaimg prosap";}
+
+    
+    .reco22{ display: flex;
+        grid-template-columns: 550px ;
+    grid-template-rows: 200px ;
+    grid-template-areas: 
+    "ubi2 card2 ";}
+
+ .reco22{ justify-content: flex-start}
+
+
+                  
+
+ 
+
